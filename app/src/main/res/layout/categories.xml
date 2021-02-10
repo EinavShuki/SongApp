@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_back"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/choose_category"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/euro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/up_btns"
+            android:drawableEnd="@drawable/star"
+            android:gravity="center"
+            android:paddingStart="90dp"
+            android:paddingEnd="90dp"
+            android:text="@string/eurovision"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/kids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/up_btns"
+            android:drawableEnd="@drawable/bear"
+            android:enabled="true"
+            android:gravity="center"
+            android:paddingStart="90dp"
+            android:paddingEnd="90dp"
+            android:text="@string/kids"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/love"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/up_btns"
+            android:drawableEnd="@drawable/heart"
+            android:gravity="center"
+            android:paddingStart="90dp"
+            android:paddingEnd="90dp"
+            android:text="@string/love"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/rock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/up_btns"
+            android:drawableEnd="@drawable/guitar"
+            android:enabled="false"
+            android:gravity="center"
+            android:paddingStart="90dp"
+            android:paddingEnd="90dp"
+            android:text="@string/rock"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/pop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/up_btns"
+            android:drawableEnd="@drawable/lollipop"
+            android:enabled="false"
+            android:gravity="center"
+            android:paddingStart="90dp"
+            android:paddingEnd="90dp"
+            android:text="@string/pop"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/military"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/up_btns"
+            android:drawableEnd="@drawable/soldier"
+            android:enabled="true"
+            android:gravity="center"
+            android:paddingEnd="90dp"
+            android:text="@string/military_bands"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</LinearLayout>

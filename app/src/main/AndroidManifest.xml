@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.songsapp">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/musical_notes"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SongsApp">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FinishActivity" android:screenOrientation="portrait" />
+        <activity android:name=".CategoriesActivity" android:screenOrientation="portrait"  />
+        <activity android:name=".IntermediateActivity"  android:screenOrientation="portrait" />
+<!--        Eurovision-->
+        <activity android:name=".EurovisionHomeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".AbanibiAvtivity" android:screenOrientation="portrait" android:launchMode="singleInstance" />
+        <activity android:name=".HaiActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".GoldenBoyActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".KanNoladetyActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".HoraActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".OleOleActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".AtVaAniActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".HeiSham" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".MilimActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".AdonShokoActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+<!--        kids-->
+        <activity android:name=".KidsHomeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".GanSagoorActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".ReamimOoBrakimActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".AfunaVeGezerActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".BubaZehavaActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".ShaonBenHailActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".KahNoladHatzevaActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".AniNakiActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".ShabatBabokerActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+<!--        MilitaryBand-->
+        <activity android:name=".MilitaryBandHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".BesinmlaAdumaActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".CarnivalBaNahalActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".OlaHamanginaActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".BoETElHagalilActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".RakBeIsraelActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".PrahimBaKaneActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".ShutiShutiActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".HasakeActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".TahtonimVeGoofiotActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+<!--    Love-->
+        <activity android:name=".LoveHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ParparimLevanimActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".SigaliotActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".HazmanaLeHatunaActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".ZeKolHakesemActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".ShirAhavaIndianiActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".MemaamakimActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".AturMitshehActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".MatokKshemarliActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+        <activity android:name=".HaimSheliActivity" android:screenOrientation="portrait" android:launchMode="singleInstance"/>
+
+    </application>
+
+</manifest>

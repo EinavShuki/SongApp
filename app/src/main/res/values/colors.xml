@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mustard">#A89C27B0</color>
+    <color name="lilach">#DAB5E1</color>
+    <color name="bottle_green">#C9930DAA</color>
+    <color name="teal_200">#A3673AB7</color>
+    <color name="teal_700">#530660</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gold">#F8E009</color>
+    <color name="gold_hard">#8E7F00</color>
+</resources>

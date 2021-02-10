@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+
+<ImageView
+    android:id="@+id/f1"
+    android:layout_width="640dp"
+    android:layout_height="200dp"
+    android:src="@drawable/firework"
+    android:layout_marginTop="400dp"
+    android:background="@null"
+    />
+<ImageView
+    android:id="@+id/f2"    android:layout_width="250dp"
+    android:layout_height="100dp"
+    android:src="@drawable/firework"
+    android:layout_marginTop="70dp"
+    android:background="@null"
+    />
+<ImageView
+    android:id="@+id/f3"
+    android:layout_width="150dp"
+    android:layout_height="120dp"
+    android:src="@drawable/firework"
+    android:layout_marginTop="70dp"
+    android:layout_toEndOf="@id/f2"
+    android:layout_below="@id/f2"
+    android:background="@null"
+    />
+<ImageView
+    android:id="@+id/f4"
+    android:layout_width="200dp"
+    android:layout_height="120dp"
+    android:src="@drawable/firework2"
+    android:layout_marginTop="50dp"
+    android:layout_below="@id/f2"
+    android:background="@null"
+    />
+<ImageView
+    android:id="@+id/f5"
+    android:layout_width="200dp"
+    android:layout_height="120dp"
+    android:src="@drawable/firework2"
+    android:layout_marginTop="50dp"
+    android:layout_toEndOf="@+id/f2"
+    android:background="@null"
+    />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main"
+        android:background="@drawable/animation_back"
+        >
+
+        <TextView
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="@string/well_done"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/back_home"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/up_btns"
+            android:text="@string/back_home"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

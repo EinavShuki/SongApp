@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">השיר בתמונה</string>
+    <string name="add_L">הוסף אות</string>
+    <string name="reveal_song">חשוף שיר</string>
+    <string name="hai_img">שרשרת חי</string>
+    <string name="multiply">X</string>
+    <string name="three">3</string>
+    <string name="start_btn">התחילו לשחק</string>
+    <string name="check">סיימתי</string>
+    <string name="two">2</string>
+    <string name="clear">נקה הכל</string>
+    <string name="next_song">שיר הבא</string>
+    <string name="error_msg">אופס…שיר לא נמצא</string>
+    <string name="lev1">שלב 1</string>
+    <string name="lev2">שלב 2</string>
+    <string name="lev3">שלב 3</string>
+    <string name="lev4">שלב 4</string>
+    <string name="lev5">שלב 5</string>
+    <string name="lev6">שלב 6</string>
+    <string name="lev7">שלב 7</string>
+    <string name="lev8">שלב 8</string>
+    <string name="lev9">שלב 9</string>
+    <string name="lev10">שלב 10</string>
+    <string name="choose_category">בחרו קטגוריה</string>
+    <string name="eurovision">אירוויזיון</string>
+    <string name="military_bands">להקות צבאיות</string>
+    <string name="pop">פופ</string>
+    <string name="rock">רוק</string>
+    <string name="kids">שירי ילדים</string>
+    <string name="love">שירי אהבה</string>
+    <string name="well_done">כל הכבוד! סיימתם עם קטגוריה זו</string>
+    <string name="back_home">חזרה למסך הבית</string>
+    <string name="how_to_play">איך לשחק</string>
+    <string name="explanation">כל שלב במשחק מציג סט תמונות אשר נותן רמז על השיר. המשימה שלכם היא לגלות - מהו השיר בתמונה</string>
+    <string name="try_again">נסו שוב</string>
+    <string name="expose_letter">חשיפת אות עולה 20 נקודות</string>
+    <string name="amount_of_points">מספר הנקודות שברשותך הוא</string>
+    <string name="exposde_all">חשיפת כל השיר עולה 70 נקודות</string>
+    <string name="exposde_approve">קנה</string>
+    <string name="cancel">ביטול</string>
+</resources>
